@@ -1,7 +1,9 @@
 /* ****************************************
               VOTRE CSS
 ******************************************/
+
 /****** GENERAL *****/
+
 *{          /* RESET CSS : remettre à zéro les marges externes et internes qui ne le sont pas par défaut. */
 	margin: 0;
 	padding: 0;
@@ -103,12 +105,30 @@ nav ul li a{
 
 /****** FOOTER ******/
 
-/*footer{
+footer{
 	bottom: 0;
+	width: 100%;
+	background-color: #272727;
+	text-align: center;
+	color: white;
+	height: 20%;
+}
 
+.footerlogo
+{
+	margin: 60px;
 }
 
 #afpalogo{
-	height:20%; 
-	width:20%;
+	height:4%; 
+	width:4%;
+}
+
+#mdelogo{
+	height: 8%;
+	width: 8%;
+}
+
+footer p{
+	padding: 10px;
 }
