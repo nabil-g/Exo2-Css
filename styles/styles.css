@@ -29,14 +29,15 @@ header{
 	text-align: center;
 	position: fixed;
 	background-color: white;
+	height: 180px;
 	width: 100%;
 	top: 0;
+
 	/*display :none; */
 }
 
 #logo{
-	height: 5%;
-	width: 5%;
+	width: 100px;
 	margin: 10px;
 }
 
@@ -62,7 +63,7 @@ nav ul li a{
 	width: 100%;
 	text-align: center;
 	color: white;
-	margin-top: 150px;
+	margin-top: 180px;
 	height: 20%;
 }
 
@@ -114,20 +115,19 @@ footer{
 	height: 20%;
 }
 
-.footerlogo
-{
-	margin: 60px;
+.footerlogo{
+	width: 70px;
+	margin: 30px;
 }
 
-#afpalogo{
-	height:4%; 
+/*#afpalogo{
 	width:4%;
 }
 
 #mdelogo{
 	height: 8%;
 	width: 8%;
-}
+}*/
 
 footer p{
 	padding: 10px;
